@@ -6,3 +6,5 @@ $msg = <<<EOD
 "Let's start, everyone!!"
 EOD;
 print $msg;
+
+// << EODが開始地点
