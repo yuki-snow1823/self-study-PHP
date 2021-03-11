@@ -1,4 +1,5 @@
 <?php
+// 定数定義
 const DISCOUNT = 0.9;
 $price = 500;
 $sum = $price * DISCOUNT;
