@@ -11,9 +11,9 @@ $assoc2 = [
   'Strawberry' => 'Red'
 ];
 $result = $assoc1 + $assoc2;
-print_r($result);
+print_r($result); // 前方の値が優先されて、消える（連想配列）
 
 $ary1 = [1, 3, 5];
 $ary2 = [2, 3, 6];
 $result = $ary1 + $ary2;
-print_r($result);
+print_r($result); // 完全に消える（配列）
