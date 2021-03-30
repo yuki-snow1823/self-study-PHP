@@ -1,7 +1,7 @@
 <?php
 function my_array_walk(array $array, callable $func) {
   foreach($array as $key => $value) {
-    $func($value, $key);
+    $func($value, $key); // 無名関数を呼んでいる
   }
 }
 
