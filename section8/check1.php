@@ -12,6 +12,7 @@
 <input id="jsp" type="checkbox" name="arch" value="JSP＆サーブレット" />
 <label for="jsp">JSP＆サーブレット</label>
 <input id="asp" type="checkbox" name="arch" value="ASP.NET" />
+<!-- nameをキー、valueを値にする -->
 <label for="asp">ASP.NET</label>
 <input type="submit" value="送信" />
 </form>
