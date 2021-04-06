@@ -4,3 +4,4 @@ function e(string $str, string $charset = 'UTF-8'): string {
 }
 
 // エスケープ処理
+// 条件二つ ENT_QUOTES | ENT_HTML5
