@@ -1,7 +1,7 @@
 <?php
-$dsn = 'mysql:dbname=selfphp; host=127.0.0.1; charset=utf8';
-$usr = 'selfusr';
-$passwd = 'selfpass';
+$dsn = 'mysql:dbname=phptest; host=127.0.0.1; charset=utf8';
+$usr = 'root';
+$passwd = '';
 
 try {
   $db = new PDO($dsn, $usr, $passwd);
