@@ -26,6 +26,7 @@ $v();
 */
 try {
   $db = getDb();
+  // prepareで何がくるかプレースホルダを用意できる
   $stt = $db->prepare('INSERT INTO book(isbn, title, price, publish, published) VALUES(:isbn, :title, :price, :publish, :published)');
   $stt->bindValue(':isbn', $_POST['isbn']);
   $stt->bindValue(':title', $_POST['title']);
