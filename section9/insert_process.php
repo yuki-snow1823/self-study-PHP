@@ -33,6 +33,7 @@ try {
   $stt->bindValue(':price', $_POST['price']);
   $stt->bindValue(':publish', $_POST['publish']);
   $stt->bindValue(':published', $_POST['published']);
+  // 指定しないではてなにすることもできる。
 /*
   $stt = $db->prepare('INSERT INTO book(isbn, title, price, publish, published) VALUES(?, ?, ?, ?, ?)');
   $stt->bindValue(1, $_POST['isbn']);
