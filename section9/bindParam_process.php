@@ -4,7 +4,7 @@ require_once '../DbManager.php';
 try {
   $db = getDb();
   $stt = $db->prepare('UPDATE book SET title=:title, price=:price, publish=:publish, published=:published WHERE isbn=:isbn');
-  $stt->bindParam(':isbn' ,$isbn);
+  $stt->bindParam(':isbn' ,$isbn); //変数はvueみたいにバインドするってこと
   $stt->bindParam(':title' ,$title);
   $stt->bindParam(':price' ,$price);
   $stt->bindParam(':publish' ,$publish);
